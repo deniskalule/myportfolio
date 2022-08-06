@@ -1,0 +1,172 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Courier New', Courier, monospace; */
+    /* background: #fff; */
+}
+
+/* navigation bar */
+nav
+{
+    padding-left: 10%;
+    padding-right: 3%;
+    background-color: rgba(31, 31, 133, 0);
+}
+.navbar-brand
+{
+    margin-right: 10%;
+    margin-left: 5%;
+    
+}
+.navbar-brand h3{
+    font-weight: 900px;
+    color: rgb(5, 9, 134);
+}
+
+.navbar-nav .nav-item .nav-link
+{
+    margin-right: 50px;
+    color: rgb(11, 13, 81);
+    font-size: 17px;
+    font-weight: 800px;
+}
+.navbar-nav .active a{
+    color: #fff;
+}
+
+.navbar-nav .nav-item .nav-link:hover
+{
+    color: #cf3129;
+}
+.socials
+{
+    color: #00f;
+    margin-right: 50px;
+    font-size: 50px;
+}
+/* footer */
+footer .links
+{
+    background-color: rgb(10, 10, 22);
+    padding-top: 50px;
+    padding-bottom: 30px;
+    color: #fff;
+}
+
+footer .copyright
+{
+    padding: 10px;
+    background-color: rgb(4, 4, 58);
+}
+
+/* landing */
+.landing
+{
+    padding-top: 300px;
+    width: 100%;
+    height: 90vh;
+    background-image: url('http://localhost/myportfolio/assets/images/bgimage.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+}
+.landing .header
+{
+    box-shadow: 2px 4px #00f;
+    background-color: rgba(255, 255, 255, 0.661);
+}
+.landing .header h2
+{
+    font-weight: 700px;
+    font-size: 3rem;
+    color: rgb(17, 17, 17);
+    font-family: cursive;
+}
+.landing .header p
+{
+    font-size: 1.2rem;
+    color: rgba(0, 0, 255, 0.826);
+    text-shadow: 1px 2px #fff;
+    
+}
+
+.landing .links button
+{
+    box-shadow: 2px 5px #000;
+}
+
+/* servives */
+.services
+{
+    background: #b8b4b4;
+}
+
+.services .card .card-title h4
+{
+    color: rgb(29, 29, 74);
+    font-size: 25px;
+    font-weight: 700px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* skills */
+.skills
+{
+    height: 60vh;
+    background-image: url('http://localhost/myportfolio/assets/images/img7.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* about  */
+.abouts
+{
+    height: 50vh;
+    width: 100%;
+    background-image: url('http://localhost/myportfolio/assets/images/img7.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+    padding-top: 200px;
+}
+
+.about .header h3
+{
+    color: #fff;
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 600px) 
+{
+    .landing .header h2
+{
+    font-weight: 700px;
+    font-size:37px;
+    margin-bottom: 15px;
+    text-shadow: 1px 2px #fff;
+    color: #000;
+    /* box-shadow: 2px 5px #000; */
+}
+.landing .header p
+{
+    font-size: 1.5rem;
+    text-shadow: 2px 3px #fff;
+    font-size: 1.5rem;
+    color: #000;
+    /* box-shadow: 2px 5px #000; */
+    margin-bottom: 25px;
+    
+}
+.landing .links button
+{
+    box-shadow:none;
+}
+
+.skills{
+    height: 100vh;
+}
+}
