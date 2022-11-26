@@ -9,26 +9,26 @@
 /* navigation bar */
 nav
 {
-    padding-left: 10%;
-    padding-right: 3%;
-    background-color: rgba(31, 31, 133, 0);
+    height: 50px;
+    /* background-color: rgba(12, 12, 12, 0.549); */
+    background-color: rgba(3, 3, 58, 0.824);
 }
 .navbar-brand
 {
-    margin-right: 10%;
+    margin-right: 15%;
     margin-left: 5%;
     
 }
-.navbar-brand h3{
+.navbar-brand h5{
     font-weight: 900px;
-    color: rgb(5, 9, 134);
+    color: rgb(255, 255, 255);
 }
 
 .navbar-nav .nav-item .nav-link
 {
-    margin-right: 50px;
-    color: rgb(11, 13, 81);
-    font-size: 17px;
+    margin-right: 20px;
+    color: #fff;
+    font-size: 13px;
     font-weight: 800px;
 }
 .navbar-nav .active a{
@@ -37,13 +37,18 @@ nav
 
 .navbar-nav .nav-item .nav-link:hover
 {
-    color: #cf3129;
+    color: #00f;
 }
 .socials
 {
     color: #00f;
     margin-right: 50px;
     font-size: 50px;
+}
+
+.socials:hover
+{
+    color: #00f;
 }
 /* footer */
 footer .links
@@ -61,40 +66,83 @@ footer .copyright
 }
 
 /* landing */
+#overlay
+{
+    padding-top: 170px;
+    background-color: rgba(3, 3, 58, 0.824);
+    width: 100%;
+    height: 90vh;   
+    /* margin-top: -23%; */
+}
 .landing
 {
-    padding-top: 300px;
+    
     width: 100%;
     height: 90vh;
-    background-image: url('http://localhost/myportfolio/assets/images/bgimage.png');
+    background-image: url('http://localhost/myportfolio/assets/images/bg.jpg');
+    /* background-color: #00f; */
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     /* background-position: center; */
 }
-.landing .header
-{
-    box-shadow: 2px 4px #00f;
-    background-color: rgba(255, 255, 255, 0.661);
+
+.landing .header{
+    /* margin-top: -80px; */
 }
+
 .landing .header h2
 {
     font-weight: 700px;
     font-size: 3rem;
-    color: rgb(17, 17, 17);
-    font-family: cursive;
+    color: #fff;
+    /* font-family: cursive; */
 }
 .landing .header p
 {
-    font-size: 1.2rem;
-    color: rgba(0, 0, 255, 0.826);
-    text-shadow: 1px 2px #fff;
+    font-size: 1rem;
+    color: rgb(245, 245, 249);
+    font-weight: 700;
+    /* text-shadow: 2px 2px #fff; */
     
 }
 
-.landing .links button
+.landing .links .btn1
 {
-    box-shadow: 2px 5px #000;
+    box-shadow: 2px 2px #000;
+    background-color: #00f;
+    border-radius: 25px;
+    padding: 5px 20px;
+    font-size: 13px;
+    font-weight: 600;
 }
+
+.landing .links .btn1:hover
+{
+    background-color: rgba(0, 0, 0, 0);
+    /* color: #000; */
+    border: 2px solid #fff;
+}
+
+.landing .links .btn2:hover
+{
+    background-color: #00f;
+    /* color: #000; */
+    border: none;
+}
+
+
+.landing .links .btn2
+{
+    box-shadow: 2px 2px #000;
+    /* background-color: #00f; */
+    border: 2px solid #fff;
+    border-radius: 25px;
+    padding: 5px 20px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
 
 /* servives */
 .services
@@ -120,7 +168,13 @@ footer .copyright
     background-position: center;
     background-attachment: fixed;
 }
-
+#overlay1
+{
+    padding-top: 150px;
+    background-color: rgba(3, 3, 58, 0.524);
+    width: 100%;
+    height: 50vh;
+}
 /* about  */
 .abouts
 {
@@ -131,8 +185,9 @@ footer .copyright
     background-size: cover;
     background-position: center;
     /* background-attachment: fixed; */
-    padding-top: 200px;
+    
 }
+
 
 .about .header h3
 {
@@ -142,21 +197,29 @@ footer .copyright
 
 @media only screen and (max-width: 600px) 
 {
+    .nav span
+    {
+        color: #000;
+    }
+    .landing .header
+    {
+        padding: 20px;
+    }
     .landing .header h2
 {
     font-weight: 700px;
     font-size:37px;
     margin-bottom: 15px;
-    text-shadow: 1px 2px #fff;
-    color: #000;
+    /* text-shadow: 1px 2px #fff; */
+    color: #fff;
     /* box-shadow: 2px 5px #000; */
 }
 .landing .header p
 {
     font-size: 1.5rem;
-    text-shadow: 2px 3px #fff;
+    /* text-shadow: 2px 3px #fff; */
     font-size: 1.5rem;
-    color: #000;
+    color: #fff;
     /* box-shadow: 2px 5px #000; */
     margin-bottom: 25px;
     

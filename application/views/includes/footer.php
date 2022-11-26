@@ -85,6 +85,24 @@
     <script src="http://localhost/myportfolio/assets/js/bootstrapjs/jquery-3.5.1.min.js"></script>
     <script src="http://localhost/myportfolio/assets/js/bootstrapjs/bootstrap.js"></script>
     <script src="http://localhost/myportfolio/assets/js/bootstrapjs/bootstrap.min.js"></script>
+    <script src=" https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendEmail()
+        {
+            // alert("success");
+            Email.send({
+                Host : "smtp.elasticemail.com",
+                Username : "denisjothamzkalule@gmail.com",
+                Password : "64056EFA1195019D63250C4EA7148F17C3C0",
+                To : 'simonquincy124@gmail.com',
+                From : document.getElementById("email").value,
+                Subject : "Enquiry",
+                Body : "Email Address:"+ document.getElementById("email").value +" <br>Message: "+document.getElementById('inquiry').value
+            }).then(
+            message => alert("Message sent successfully")
+            );
+        }
+    </script>
     
 </body>
 </html>

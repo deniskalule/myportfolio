@@ -1,6 +1,8 @@
 <div class="abouts">
-    <div class="header">
-        <h3 class="text-center">ABOUT ME</h3>
+    <div id="overlay1">
+        <div class="header">
+            <h3 class="text-center text-white">ABOUT ME</h3>
+        </div>
     </div>
 </div>
 
